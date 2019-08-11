@@ -40,7 +40,7 @@
         <div class="row">
   <div class="col-md-6">
     {!! Form::label('descripcion', 'Descripciòn de Ingreso*', ['class' => 'control-label']) !!}
-    {!! Form::text('descripcion', old('descripcion'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+    {!! Form::text('descripcion', old('descripcion'), ['class' => 'form-control', 'placeholder' => '']) !!}
     <p class="help-block"></p>
     @if($errors->has('descripcion'))
     <p class="help-block">
